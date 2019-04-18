@@ -47,6 +47,9 @@
 ![Ubidots Dashboard](/latest_dashboard_capture.JPG)
 ###### This is a model dashboard of the ubidots cloud service which stores the data obtained from the constrained device through the gateway device.
 
+[Dashboard URL](https://app.ubidots.com/ubi/public/getdashboard/page/_6D9sJhvPhpSUC9_oXdvKHz2s3M)
+
+[Wireshark data](https://drive.google.com/file/d/1d5NRko0lYJRMBWuOW8FAIbUGxny5be7C/view?usp=sharing)
 
 ### Instructions to run the project
 #### The instructions below are given under the impression that you are running this project on Raspberry Pi 3 B+ (RBPi3B+) with a senseHAT. You must also have the latest version of git, ubidots cloud API, paho-mqtt and have updated the Raspberry Pi 3B+ to its latest version.
