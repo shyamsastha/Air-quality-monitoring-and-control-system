@@ -10,12 +10,12 @@ from AirQSensorAdaptor import AirQSensorAdaptor
 from AirQSensorGateway import AirQSensorGateway
 
 #initiating the adaptor
-airqsensorAdaptor = AirQSensorAdaptor("AirQuality")
 airqsensorGateway = AirQSensorGateway("AirQuality")
+airqsensorAdaptor = AirQSensorAdaptor("AirQuality")
 
 #enabling the adaptor
-airqsensorAdaptor.enableAdaptor = True
 airqsensorGateway.enableAdaptor = True
+airqsensorAdaptor.enableAdaptor = True
 
 #starting the thread
 airqsensorGateway.start()
