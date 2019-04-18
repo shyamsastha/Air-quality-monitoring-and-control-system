@@ -9,6 +9,7 @@
 
 ### Working Principle
 ![Objective Flow Chart](https://www.dropbox.com/s/51jf8g52ct0hlse/objective_flow_chart_project.JPG)
+
 ![UML Flow Chart](https://www.dropbox.com/s/v7aro8603vbzucj/uml_flow_chart_project.JPG)
 
 * It can be observed from the above diagrams that this project follows a simple IoT system topology
