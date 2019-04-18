@@ -8,9 +8,9 @@
 * Sensors are part of the senseHAT that runs on the Pi 3B+ module to actively collect data through the GPIO ports.
 
 ### Working Principle
-![Objective Flow Chart](https://www.dropbox.com/s/51jf8g52ct0hlse/objective_flow_chart_project.JPG)
+![Objective Flow Chart](/objective_flow_chart_project.JPG)
 
-![UML Flow Chart](https://www.dropbox.com/s/v7aro8603vbzucj/uml_flow_chart_project.JPG)
+![UML Flow Chart](/uml_flow_chart_project.JPG)
 
 * It can be observed from the above diagrams that this project follows a simple IoT system topology
 * There are 3 different parts of the IoT ecosystem:
@@ -39,7 +39,7 @@
 	* These values performs an important role in deciding the actuation processes.
 
 ### Sample Output
-![Ubidots Dashboard](https://www.dropbox.com/s/n0xiza7d5d2vupk/latest_dashboard_capture.JPG)
+![Ubidots Dashboard](/latest_dashboard_capture.JPG)
 
 ### Instructions to run the project
 #### The instructions below are given under the impression that you are running this project on Raspberry Pi 3 B+ (RBPi3B+) with a senseHAT. You must also have the latest version of git, ubidots cloud API, paho-mqtt and have updated the Raspberry Pi 3B+ to its latest version.
