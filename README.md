@@ -9,8 +9,10 @@
 
 ### Working Principle
 ![Objective Flow Chart](/objective_flow_chart_project.JPG)
+###### The objective flowchart above depicts the interaction between different ecosystems in the IoT System.
 
 ![UML Flow Chart](/uml_flow_chart_project.JPG)
+###### The UML flowchart above depicts the interaction between different components of each ecosystem within itself and outside their respecitve ecosystem in the overall IoT System.
 
 * It can be observed from the above diagrams that this project follows a simple IoT system topology
 * There are 3 different parts of the IoT ecosystem:
@@ -40,6 +42,7 @@
 
 ### Sample Output
 ![Ubidots Dashboard](/latest_dashboard_capture.JPG)
+###### This is a model dashboard of the ubidots cloud service which stores the data obtained from the constrained device through the gateway device.
 
 ### Instructions to run the project
 #### The instructions below are given under the impression that you are running this project on Raspberry Pi 3 B+ (RBPi3B+) with a senseHAT. You must also have the latest version of git, ubidots cloud API, paho-mqtt and have updated the Raspberry Pi 3B+ to its latest version.
