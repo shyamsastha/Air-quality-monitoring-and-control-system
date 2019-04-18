@@ -1,6 +1,7 @@
 '''
 Created on April 12,2019
 Simple Python script for running the Air Quality Management Gateway Device Application
+This can be used as a standalone application that has to be run in parallel with another App.
 @author: Shyama Sastha Krishnamoorthy Srinivasan
 '''
 
