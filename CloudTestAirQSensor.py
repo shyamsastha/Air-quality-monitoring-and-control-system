@@ -1,6 +1,7 @@
 '''
 Created on April 12,2019
 Simple Python script for MQTT Subscriber Client
+This is a test file to check the python cloudAPI for ubidots.
 @author: Shyama Sastha Krishnamoorthy Srinivasan
 '''
 
