@@ -1,2 +1,3 @@
 *.props
 sense_hat.py
+/__pycache__/
