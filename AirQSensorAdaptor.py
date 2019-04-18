@@ -34,7 +34,7 @@ class AirQSensorAdaptor(Thread):
     def run(self):
         while True:
             if self.enableAdaptor:
-                sleep(5)
+                sleep(1)
                 self.sensorData.updateValue()
                 data = DataUtil()
                 jsonData = data.sensorTojson(self.sensorData)
