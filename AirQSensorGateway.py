@@ -54,9 +54,10 @@ class AirQSensorGateway(Thread):
         self.data = DataUtil()
         
     '''
-    This thread gets the current temperature from SenseHat. 
-    Notification is generated and mailed based on the threshold temperature set
-    Signal is sent to actuator if nominal temperature doesn't match current value
+    This thread gets the current temperature from the constrained device through mqtt.
+    Gets the latest value of system and control check flags to perform actuation.
+    Signal is sent to actuator appropriately.
+    Notification is generated and mailed based on the thresholds set.
     '''
     def run(self):
         while True:
@@ -81,7 +82,7 @@ class AirQSensorGateway(Thread):
                 systemcheck = systemtoggle.get_values(1)
                 controlcheck = controltoggle.get_values(1)
                 '''
-                checking to see if the temperature exceeds nominal temperature to set status
+                checking to see if the systems and control flags for different modes to set status
                 for actuator and send the message accordingly
                 '''
                 if systemcheck[0]['value'] and controlcheck[0]['value']:

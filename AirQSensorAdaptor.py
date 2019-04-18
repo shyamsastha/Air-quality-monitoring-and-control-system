@@ -28,9 +28,8 @@ class AirQSensorAdaptor(Thread):
         self.connector = SmtpClientConnector()
         
     '''
-    This thread gets the current temperature from SenseHat. 
-    Notification is generated and mailed based on the threshold temperature set
-    Signal is sent to actuator if nominal temperature doesn't match current value
+    This thread gets the current temperature from SenseHat.
+    Publishes the values as a message to the gateway device
     '''
     def run(self):
         while True:
